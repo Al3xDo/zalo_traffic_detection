@@ -18,7 +18,7 @@ BLACK = (0, 0, 0)
 ORANGE = (0, 127, 255)
 CUSTOM = (255,170,170)
 COLOR_CLASS = {0: BLUE, 1:GREEN, 2:RED, 3:YELLOW, 4:PINK, 5:BLACK, 6:ORANGE, 7:CUSTOM}
-
+# tinh vung giao nhai
 def bb_intersection_over_union(boxA, boxB):
     xA = max(boxA[0], boxB[0])
     yA = max(boxA[1], boxB[1])
